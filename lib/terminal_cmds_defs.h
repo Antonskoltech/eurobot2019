@@ -22,9 +22,9 @@ TERM_CMD_DEF(0x1a, SET_PUMP_MOVING,             set_pump_moving)
 TERM_CMD_DEF(0x1b, BAR_CHECK,                   bar_check)
 TERM_CMD_DEF(0x20, RELEASER_DEFAULT,            releaser_default)
 TERM_CMD_DEF(0x21, RELEASER_THROW,              releaser_throw)
-TERM_CMD_DEF(0x22, RIGHT_STICK_DEFAULT,         right_stick_default)
+TERM_CMD_DEF(0x22, RIGHT_STICK_DEFAULT,         right_stick_default) // upper
 TERM_CMD_DEF(0x23, RIGHT_STICK_DOWN,            right_stick_down)
-TERM_CMD_DEF(0x24, LEFT_STICK_DEFAULT,          left_stick_default)
+TERM_CMD_DEF(0x24, LEFT_STICK_DEFAULT,          left_stick_default) //down
 TERM_CMD_DEF(0x25, LEFT_STICK_DOWN,             left_stick_down)
 TERM_CMD_DEF(0x26, SET_RELEASER_SPEED_HIGH,     set_releaser_speed_high)
 TERM_CMD_DEF(0x27, SET_RELEASER_SPEED_LOW,      set_releaser_speed_low)
